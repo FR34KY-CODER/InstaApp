@@ -4,6 +4,8 @@
   <img src="https://img.shields.io/badge/InstaApp%20-%20Social%20Media%20Application-282C34?logo=Instagram&logoColor=E4405F" alt="InstaApp Logo" height="38" />
 </h3>
 
+![Uploading image.png…]()
+
 <h4 align="center">🎉 A feature-rich social media app built with Kotlin in Android Studio</h4>
 
 ---
