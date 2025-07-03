@@ -1,72 +1,117 @@
-<h3 align="center"><span><img src="https://img.shields.io/badge/InstaApp%20-%20Social%20Media%20Application-282C34?logo=Instagram&logoColor=E4405F" alt="HTML5 logo" title="HTML5" height="38" /></span>
+---
+
+<h3 align="center">
+  <img src="https://img.shields.io/badge/InstaApp%20-%20Social%20Media%20Application-282C34?logo=Instagram&logoColor=E4405F" alt="InstaApp Logo" height="38" />
 </h3>
-<h4 align="center">🎉 A social media app built with Kotlin (Android Studio) with multiple features</h3>
 
-### ▷ Features:
+<h4 align="center">🎉 A feature-rich social media app built with Kotlin in Android Studio</h4>
 
-- Sign up using Firebase Authentication & save user data to Firebase Database.
-- Sign in using Firebase.
-- Create profile.
-- Account setting.
-- Search users.
-- Follow and Unfollow users on Search Fragment.
-- Navigate user from Search Page to searched user Profile.
-- Allow an Online user to Edit Account Info.
-- Upload image to Firebase Storage & Firebase Database and Retrieve & Display.
-- Upload new post picture.
-- User Timeline.
-- Likes and Total Number of Likes.
-- Add Comments on Pictures.
-- Retrieve and Display Comments & Total Number of Comments.
-- Display user Own Posts on User's Profile Page.
-- Navigate user to Post Details Fragment from Profile Fragment.
-- Display Total Number of Posts & Allow user Save Photos to Collection on Profile.
-- Display user Saved Images Collection on user Profile.
-- Display Followings List, Followers List and Picture Likes.
-- Add anf Display Notifications for Likes, Comments & Followings.
-- Upload Stories.
-- Implement Story Features - Next Story, Previous Sory, Display Viewed by People.
-- Manage UI for Already Seen Stories & for New Stories.
+---
 
-### ▷ About Application:
+## 📱 Features
 
-▷ Create an android app like instagram
+* 🔐 **Authentication**
 
-▷ Tools Used In this Project:
-- Android Studio;
-- Firebase:
-  - Realtime database
-  - Authentication
-  - Storage
-    
-▷ Libraries Used In this Project:
-- com.theartofdev.edmodo:android-image-cropper:2.8.0
-- com.github.shts:StoriesProgressView:3.0.0
-- com.squareup.picasso:picasso:2.71828
-- de.hdodenhof:circleimageview:3.1.0
+  * Sign up with Firebase Authentication
+  * Sign in with Firebase
+  * Store and retrieve user data using Firebase Realtime Database
 
-PS: If you're going to download the full project please use your on firebase API, the one in the project will NOT be mantained and the app may not work.
+* 👤 **User Profiles**
 
-### ▷ Installation:
+  * Create and edit user profile
+  * Account settings management
+  * Search for users
+  * Follow/Unfollow users
+  * Navigate to searched user profiles
 
-#### 1. [Setup Android Studio & Kotlin](https://developer.android.com/studio/install)
+* 📸 **Posts & Media**
 
-#### 2. Clone the repo
+  * Upload images to Firebase Storage
+  * Post images to timeline
+  * Like posts and display total likes
+  * Add and view comments
+  * View post details from user profile
+  * Display user's posts on profile
+  * Save and view saved post collections
 
-- !!!!IMPORTANT!!!! Change the Package Name. You can check how to do that here (https://stackoverflow.com/questions/16804093/android-studio-rename-package)<br />
+* 🔔 **Notifications**
 
-#### 3. Setup the firebase app
+  * Real-time notifications for likes, comments, and follows
 
-- You'll need to create a Firebase instance. Follow the instructions at https://console.firebase.google.com.
-- Once your Firebase instance is created, you'll need to enable Google authentication.
+* 📚 **Stories**
 
-* Go to the Firebase Console for your new instance.
-* Click "Authentication" in the left-hand menu
-* Click the "sign-in method" tab
-* Click "Email and Password" and enable it
-* Create an app within your Firebase instance for Android, with package name com.yourcompany.news
-* Follow instructions to download google-services.json
-* place `google-services.json` into `/android/app/`.
-* Create an app within your Firebase instance for Android, with your app package name
+  * Upload and view stories
+  * Story navigation: next, previous, seen status
+  * Display story viewers
 
-- You can also use my firebase if you wish!
+---
+
+## 💠 Tech Stack
+
+* **Language:** Kotlin
+* **IDE:** Android Studio
+* **Backend & Cloud:** Firebase
+
+  * Realtime Database
+  * Authentication
+  * Storage
+
+---
+
+## 📦 Libraries Used
+
+* [`android-image-cropper`](https://github.com/ArthurHub/Android-Image-Cropper) – Image cropping
+* [`StoriesProgressView`](https://github.com/shts/StoriesProgressView) – Instagram-style story view
+* [`Picasso`](https://square.github.io/picasso/) – Image loading
+* [`CircleImageView`](https://github.com/hdodenhof/CircleImageView) – Circular profile images
+
+---
+
+## 🚀 Getting Started
+
+### 1. 📥 Install Android Studio & Kotlin
+
+👉 [Follow official setup guide](https://developer.android.com/studio/install)
+
+### 2. 🧬 Clone the Repository
+
+```bash
+git clone https://github.com/your-username/InstaApp.git
+```
+
+> ⚠️ **Important**: Change the package name!
+> [How to rename package in Android Studio](https://stackoverflow.com/questions/16804093/android-studio-rename-package)
+
+### 3. 🔧 Firebase Setup
+
+* Go to [Firebase Console](https://console.firebase.google.com)
+* Create a new Firebase project
+* Enable **Email & Password** authentication:
+
+  * Authentication → Sign-in method → Enable Email/Password
+* Add a new **Android App** to the Firebase project:
+
+  * Use your app’s package name (e.g., `com.yourcompany.instaapp`)
+* Download `google-services.json`
+* Place it inside:
+
+  ```bash
+  /app/google-services.json
+  ```
+
+> 💡 *You can also use the existing Firebase config in the project temporarily, but it's **not maintained***.
+
+---
+
+## 📌 Notes
+
+* All user-generated content and interactions are powered by Firebase in real time.
+* This is a clone-like app intended for learning and demonstrating Firebase integration with modern Android development practices.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
