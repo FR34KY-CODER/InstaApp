@@ -78,7 +78,7 @@
 ### 2. 🧬 Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/InstaApp.git
+git clone https://github.com/FR34KY-CODER/InstaApp.git
 ```
 
 > ⚠️ **Important**: Change the package name!
